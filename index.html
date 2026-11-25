@@ -16,7 +16,31 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="nav">…</header>
+    <a class="skip" href="#main">Spring til indhold</a>
+
+    <header class="nav">
+      <div class="container nav_inner">
+        <a href="#hero" class="nav_logo">
+          <img src="img/Logo1.svg" alt="PULSE logo" />
+        </a>
+        <button
+          class="nav_toggle"
+          aria-expanded="false"
+          aria-controls="menu"
+          aria-label="Åbn menu"
+        >
+          ☰
+        </button>
+        <nav id="menu" class="nav_links" aria-label="Hovedmenu">
+          <a href="#funktioner">Funktioner</a>
+          <a href="#restitution">Restitution</a>
+          <a href="#specifikationer">Specifikationer</a>
+          <a href="#anmeldelser">Anmeldelser</a>
+          <a class="btn" href="#koeb">Køb · 1.299 kr. →</a>
+        </nav>
+      </div>
+    </header>
+
     <main id="main">
       <section id="hero">…</section>
       <section id="nøgletal">…</section>
