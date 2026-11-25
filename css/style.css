@@ -1,0 +1,32 @@
+:root {
+  /* BAGGRUND */
+  --bg-primary: #0A0A0A;
+  --bg-light: #F4F4F0;
+
+  /* TEKST */
+  --text-primary-dark: #D9D9D9;
+  --text-primary-light: #0A0A0A;
+  --text-muted-dark: #A3A39E;
+  --text-muted-light: #5E5E58;
+
+  /* UI */
+  --forest-green: #1F3D2B;
+  --titanium-grey: #8E9196;
+  --graphite-black: #1C1C1E;
+
+  /* ACCENT */
+  --accent: #FF4D00;
+  --accent-dark: #C93A00;
+
+  /* BORDER */
+  --border: #2A2A2A;
+  --border-light: #A3A39E;
+
+  /* Afstande (8 px-skala) */
+  --space-1: 8px;  --space-2: 16px; --space-3: 24px;
+  --space-4: 32px; --space-5: 48px; --space-6: 64px; --space-7: 96px;
+
+  /* Typografi */
+  --font-display: 'Anton', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
